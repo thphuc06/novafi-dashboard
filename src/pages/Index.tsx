@@ -24,7 +24,7 @@ const Index = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="flex-1 p-6 lg:p-8 overflow-auto custom-scrollbar"
+            className="flex-1 p-6 lg:p-8 overflow-auto custom-scrollbar max-w-7xl mx-auto w-full"
           >
             {/* Header */}
             <motion.div
